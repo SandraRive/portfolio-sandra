@@ -1,0 +1,43 @@
+:root {
+  /* Fondos */
+  --bg-primary: #0d0f12;
+  --bg-secondary: #15181d;
+
+  /* Texto */
+  --text-primary: #e4e6eb;
+  --text-secondary: #8b929e;
+
+  /* Acento (verde-lima) */
+  --accent: #39ff88;
+  --accent-dim: #2bb865;
+
+  /* Bordes */
+  --border: #262a31;
+
+  /* Tipografía */
+  --font-sans: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  /* Escala de tamaños */
+  --text-xs: 0.75rem;    /* 12px - detalles pequeños */
+  --text-sm: 0.875rem;   /* 14px - texto secundario */
+  --text-base: 1rem;     /* 16px - texto normal */
+  --text-lg: 1.25rem;    /* 20px - subtítulos */
+  --text-xl: 2rem;       /* 32px - títulos de sección */
+  --text-2xl: 3rem;      /* 48px - título Hero */
+
+  /* Espaciado (escala base 8px) */
+  --space-xs: 0.5rem;   /* 8px */
+  --space-sm: 1rem;     /* 16px */
+  --space-md: 1.5rem;   /* 24px */
+  --space-lg: 2.5rem;   /* 40px */
+  --space-xl: 4rem;     /* 64px */
+  --space-2xl: 6rem;    /* 96px - separación entre secciones grandes */
+
+  /* Bordes redondeados */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* Sombras (sutiles, para dar profundidad sin exagerar) */
+  --shadow-glow: 0 0 20px rgba(57, 255, 136, 0.15);
+}
