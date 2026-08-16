@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/hero.css">
   <link rel="stylesheet" href="css/components.css">
 </head>
 <body>
@@ -37,8 +38,24 @@
   </header>
 
   <main>
-    <section id="hero" class="section">
-      <h1>Hero (próximamente)</h1>
+    <section id="hero" class="section hero">
+        <p class="hero__greeting">$ whoami</p>
+        <h1 class="hero__name">Sandra Rivera</h1>
+        <h2 class="hero__role">Estudiante de Ingeniería Informática · Desarrolladora Fullstack</h2>
+
+        <p class="hero__typewriter">
+            <span id="typewriter-text"></span><span class="hero__cursor">|</span>
+        </p>
+
+        <div class="hero__stack">
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Git</span>
+        </div>
+
+        <a href="#projects" class="btn hero__cta">Ver proyectos</a>
     </section>
 
     <section id="about" class="section">
@@ -65,7 +82,7 @@
   <footer class="footer">
     <p>© 2026 Sandra Rivera</p>
   </footer>
-
+  <script src="js/typewriter.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
