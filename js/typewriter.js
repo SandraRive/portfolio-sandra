@@ -1,4 +1,4 @@
-const texto = '> Construyo aplicaciones Android y web con JavaScript, SQL y buenas prácticas de desarrollo.';
+const texto = '> Aprendiendo a construir aplicaciones Android y web con JavaScript, SQL y buenas prácticas de desarrollo.';
 const elemento = document.getElementById('typewriter-text');
 let indice = 0;
 
