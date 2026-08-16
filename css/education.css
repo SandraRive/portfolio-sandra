@@ -1,0 +1,60 @@
+.education__timeline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+  border-left: 2px solid var(--border);
+  padding-left: var(--space-md);
+}
+
+.timeline-item__date {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--accent);
+}
+
+.timeline-item__title {
+  font-size: var(--text-base);
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.education__subtitle {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+.education__certs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-md);
+}
+
+.education__courses {
+  margin-top: var(--space-sm);
+}
+
+.education__courses summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--accent);
+  padding: var(--space-xs) 0;
+}
+
+.courses-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-top: var(--space-sm);
+  padding-left: var(--space-sm);
+  border-left: 1px solid var(--border);
+}
+
+.courses-list li {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
