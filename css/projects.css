@@ -22,7 +22,10 @@
 
 .project-card--upcoming {
   border-style: dashed;
-  opacity: 0.85;
+}
+
+.project-card--upcoming .project-card__desc {
+  color: var(--text-secondary);
 }
 
 .project-card__status {
