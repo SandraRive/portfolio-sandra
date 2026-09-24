@@ -95,3 +95,20 @@
     border-bottom: 1px solid var(--border);
   }
 }
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--accent);
+  color: var(--bg-primary);
+  padding: var(--space-xs) var(--space-md);
+  z-index: 200;
+  text-decoration: none;
+  font-family: var(--font-mono);
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
