@@ -2,7 +2,7 @@
 
 Portfolio profesional de Sandra Rivera, estudiante de Ingeniería Informática y desarrolladora Fullstack. Construido con HTML, CSS y JavaScript puro, sin frameworks.
 
-🔗 **Demo en vivo:** *(enlace pendiente tras el deployment)*
+🔗 **Demo en vivo:** [sandrarive.github.io/portfolio-sandra](https://sandrarive.github.io/portfolio-sandra/)
 
 ## 📋 Sobre el proyecto
 
